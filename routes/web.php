@@ -17,4 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/show-name', function(){
+       return ("My name is Nassim");
+});
+
 
